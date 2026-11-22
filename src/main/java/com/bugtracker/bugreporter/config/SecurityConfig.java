@@ -37,7 +37,7 @@ public class SecurityConfig {
             "/h2-console/**", // If you need to access H2 in dev mode
             "/public",
             "/token",
-            "/api/**" // for testing remove in production
+
     };
 
     public SecurityConfig(JwtAuthenticationFilter jwtAuthenticationFilter) {
