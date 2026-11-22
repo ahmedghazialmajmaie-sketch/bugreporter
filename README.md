@@ -1,6 +1,8 @@
 #  1. Used Tools 
 Springboot 4.0.8
+
 MySql Server 8.4
+
 Java Version: 25 
 
 ---
@@ -148,7 +150,7 @@ create table developers
 
 ```
 
-![[bugtracker-sql-diagram.png]]
+<img width="1772" height="3348" alt="bugtracker-sql-diagram" src="https://github.com/user-attachments/assets/edc0c8e0-f262-40ff-b717-5e32ab96e21d" />
 
 ---
 
