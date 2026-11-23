@@ -1,4 +1,4 @@
-package com.bugtracker.bugreporter.dto;
+package com.bugtracker.bugreporter.security;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

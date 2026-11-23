@@ -1,13 +1,7 @@
 package com.bugtracker.bugreporter.controller;
 
-import com.bugtracker.bugreporter.dto.AuthResponseDto;
-import com.bugtracker.bugreporter.dto.LoginRequestDto;
-import com.bugtracker.bugreporter.dto.RegisterRequestDto;
-import com.bugtracker.bugreporter.dto.UserResponseDto;
-import com.bugtracker.bugreporter.service.AuthService;
-import jakarta.validation.Valid;
+import com.bugtracker.bugreporter.security.AuthService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/test/auth")
 @RequiredArgsConstructor
-public class AuthController2 {
+public class AuthControllerTest {
 
     private final AuthService authService;
 

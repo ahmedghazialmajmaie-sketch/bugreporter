@@ -1,6 +1,5 @@
 package com.bugtracker.bugreporter.exception;
 
-import com.bugtracker.bugreporter.dto.ErrorResponseDto;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

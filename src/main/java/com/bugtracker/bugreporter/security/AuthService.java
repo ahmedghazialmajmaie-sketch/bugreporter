@@ -1,14 +1,9 @@
-package com.bugtracker.bugreporter.service;
+package com.bugtracker.bugreporter.security;
 
-import com.bugtracker.bugreporter.dto.AuthResponseDto;
-import com.bugtracker.bugreporter.dto.LoginRequestDto;
-import com.bugtracker.bugreporter.dto.RegisterRequestDto;
-import com.bugtracker.bugreporter.dto.UserResponseDto;
 import com.bugtracker.bugreporter.entity.User;
 import com.bugtracker.bugreporter.exception.DuplicateResourceException;
 import com.bugtracker.bugreporter.exception.InvalidCredentialsException;
 import com.bugtracker.bugreporter.repository.UserRepository;
-import com.bugtracker.bugreporter.security.JwtService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.security.crypto.password.PasswordEncoder;
